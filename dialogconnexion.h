@@ -15,10 +15,25 @@ public:
     explicit DialogConnexion(QWidget *parent = nullptr);
     ~DialogConnexion();
 
+    QString getUsername();
+
+    QString getPassword();
+
+    QString getDatabaseName();
+
+    QString getDatabaseIP();
+
+    //ugo.cpp
+    bool quitConfirmConnexion();
+    void closeEvent(QCloseEvent *event);
+
 private slots:
     void on_pushButtonDialogDelete_clicked();
 
     void on_pushButtonDialogConnection_clicked();
+
+
+    void on_pushButtonClose_clicked();
 
 private:
     Ui::DialogConnexion *ui;

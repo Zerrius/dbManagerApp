@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/logo_delete_button.png</file>
+        <file>images/logo_delete_button_earaser.png</file>
+        <file>images/logo_app_1.png</file>
+        <file>images/logo_login.png</file>
+        <file>images/logo_close.png</file>
+        <file>images/logo_add.png</file>
+        <file>images/logo_save.png</file>
+        <file>images/logo_trash.png</file>
+        <file>images/logo_add_table.png</file>
+        <file>images/logo_enter_execute.png</file>
+        <file>images/logo_filter.png</file>
+        <file>images/logo_table.png</file>
+        <file>images/logo_user_request.png</file>
+        <file>images/logo_add_row.png</file>
+    </qresource>
+</RCC>

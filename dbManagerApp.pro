@@ -26,18 +26,33 @@ CONFIG += c++11
 
 SOURCES += \
         dialogconnexion.cpp \
+    dialoginsertiontabletheo.cpp \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    nolann.cpp \
+    ugo.cpp \
+    jonathan.cpp \
+    remi.cpp \
+    dialoginsertionremi.cpp \
+    louis.cpp \
+    theo.cpp
 
 HEADERS += \
         dialogconnexion.h \
-        mainwindow.h
+    dialoginsertiontabletheo.h \
+        mainwindow.h \
+    dialoginsertionremi.h
 
 FORMS += \
         dialogconnexion.ui \
-        mainwindow.ui
+    dialoginsertiontabletheo.ui \
+        mainwindow.ui \
+    dialoginsertionremi.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    images.qrc
